@@ -11,30 +11,39 @@ const IndexPage = () => (
     <p>GO MAKE THAT LIST!</p>
     <h3>Lists So Far</h3>
     <p>Go listen to them while you wait for this site to be built!</p>
-    <iframe
-      src="https://open.spotify.com/embed/user/1212739218/playlist/1XLZ6gKOhB7uMuneUs9a1E"
-      width="300"
-      height="380"
-      frameborder="0"
-      allowtransparency="true"
-      allow="encrypted-media"
-    />
-    <iframe
-      src="https://open.spotify.com/embed/user/1248643022/playlist/4o7seOy3gAezJdjfemzB9P"
-      width="300"
-      height="380"
-      frameborder="0"
-      allowtransparency="true"
-      allow="encrypted-media"
-    />
-    <iframe
-      src="https://open.spotify.com/embed/user/1212739218/playlist/2ydHg7sr1NcLGTkThTxbtA"
-      width="300"
-      height="380"
-      frameborder="0"
-      allowtransparency="true"
-      allow="encrypted-media"
-    />
+    <ul>
+      <li>
+        <iframe
+          src="https://open.spotify.com/embed/user/1212739218/playlist/1XLZ6gKOhB7uMuneUs9a1E"
+          width="300"
+          height="380"
+          frameborder="0"
+          allowtransparency="true"
+          allow="encrypted-media"
+        />
+      </li>
+      <li>
+        <iframe
+          src="https://open.spotify.com/embed/user/1248643022/playlist/4o7seOy3gAezJdjfemzB9P"
+          width="300"
+          height="380"
+          frameborder="0"
+          allowtransparency="true"
+          allow="encrypted-media"
+        />
+      </li>
+      <li>
+        <iframe
+          src="https://open.spotify.com/embed/user/1212739218/playlist/2ydHg7sr1NcLGTkThTxbtA"
+          width="300"
+          height="380"
+          frameborder="0"
+          allowtransparency="true"
+          allow="encrypted-media"
+        />
+      </li>
+    </ul>
+
     <p>
       to add yours to this list shoot an email to
       <a href="mailto:treighton@gmail.com">treighton@gmail.com</a> or DM me
