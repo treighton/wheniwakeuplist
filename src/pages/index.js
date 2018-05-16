@@ -31,6 +31,15 @@ const IndexPage = () => (
       </li>
       <li className="list">
         <iframe
+          src="https://open.spotify.com/embed/user/1260969225/playlist/2kkNUsGbsy3HUvIKth86gO"
+          width="300"
+          height="380"
+          frameborder="0"
+          allowtransparency="true"
+        />
+      </li>
+      <li className="list">
+        <iframe
           src="https://open.spotify.com/embed/user/1212739218/playlist/1XLZ6gKOhB7uMuneUs9a1E"
           width="300"
           height="380"
