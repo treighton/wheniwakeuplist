@@ -50,6 +50,7 @@ const IndexPage = () => (
       <a href="https://www.instagram.com/treighton/">here</a>
     </p>
     <Link to="/page-2/">FAQ / RULES</Link>
+    <Link to="/Submit/">FAQ / RULES</Link>
   </div>
 )
 
