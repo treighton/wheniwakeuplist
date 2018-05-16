@@ -8,6 +8,12 @@ const IndexPage = () => (
       This will soon be a site where you can add your spotify playlists of songs
       that were stuck in your head when you woke up!
     </p>
+    <p>
+      to add yours to this list shoot an email to
+      <a href="mailto:treighton@gmail.com">treighton@gmail.com</a> or DM me
+      <a href="https://www.instagram.com/treighton/">here</a>
+    </p>
+    <Link to="/page-2/">FAQ / RULES</Link>
     <p>GO MAKE THAT LIST!</p>
     <h3>Lists So Far</h3>
     <p>Go listen to them while you wait for this site to be built!</p>
@@ -69,13 +75,6 @@ const IndexPage = () => (
         />
       </li>
     </ul>
-
-    <p>
-      to add yours to this list shoot an email to
-      <a href="mailto:treighton@gmail.com">treighton@gmail.com</a> or DM me
-      <a href="https://www.instagram.com/treighton/">here</a>
-    </p>
-    <Link to="/page-2/">FAQ / RULES</Link>
   </div>
 )
 
