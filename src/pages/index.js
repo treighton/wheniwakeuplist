@@ -14,6 +14,16 @@ const IndexPage = () => (
     <ul>
       <li>
         <iframe
+          src="https://open.spotify.com/embed/user/1238350059/playlist/6FtFCQWzUy4I6tWlMhqQa3"
+          width="300"
+          height="380"
+          frameborder="0"
+          allowtransparency="true"
+          allow="encrypted-media"
+        />
+      </li>
+      <li>
+        <iframe
           src="https://open.spotify.com/embed/user/1212739218/playlist/1XLZ6gKOhB7uMuneUs9a1E"
           width="300"
           height="380"
