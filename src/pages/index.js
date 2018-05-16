@@ -11,8 +11,15 @@ const IndexPage = () => (
     <p>GO MAKE THAT LIST!</p>
     <h3>Lists So Far</h3>
     <p>Go listen to them while you wait for this site to be built!</p>
-    <ul>
-      <li>
+    <ul
+      style={{
+        display: 'flex',
+        flexWrap: 'wrap',
+        listStyle: 'none',
+        justifyContent: 'space-around',
+      }}
+    >
+      <li className="list">
         <iframe
           src="https://open.spotify.com/embed/user/1238350059/playlist/6FtFCQWzUy4I6tWlMhqQa3"
           width="300"
@@ -22,7 +29,7 @@ const IndexPage = () => (
           allow="encrypted-media"
         />
       </li>
-      <li>
+      <li className="list">
         <iframe
           src="https://open.spotify.com/embed/user/1212739218/playlist/1XLZ6gKOhB7uMuneUs9a1E"
           width="300"
@@ -32,7 +39,7 @@ const IndexPage = () => (
           allow="encrypted-media"
         />
       </li>
-      <li>
+      <li className="list">
         <iframe
           src="https://open.spotify.com/embed/user/1248643022/playlist/4o7seOy3gAezJdjfemzB9P"
           width="300"
