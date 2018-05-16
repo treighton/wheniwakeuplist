@@ -9,7 +9,7 @@ const IndexPage = () => (
       that were stuck in your head when you woke up!
     </p>
     <p>
-      to add yours to this list shoot an email to
+      to add yours to this list shoot an email to{' '}
       <a href="mailto:treighton@gmail.com">treighton@gmail.com</a> or DM me
       <a href="https://www.instagram.com/treighton/">here</a>
     </p>
